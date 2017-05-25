@@ -1,0 +1,54 @@
+
+
+
+/************************
+
+  ***Caroucel Style***
+
+************************/
+.carousel-inner {
+    height: 100vh;
+}
+.carousel-inner img {
+	width: 100%;
+    height: 100vh !important;
+}
+
+.carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    background-color: #EF7F0F;
+    border: #EF7F0F;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 11px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: #6D6E71;
+    border: 1px solid #6D6E71;
+    border-radius: 10px;
+}
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none !important;
+    }
+}

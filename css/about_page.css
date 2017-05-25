@@ -1,0 +1,108 @@
+/*About Page first section Pelople!*/
+
+.first_section_about_u {
+	padding: 4% 10px;
+}
+
+.first_section_about_u img {
+	width: 100%;
+}
+.first_section_about_u .col-md-7 {
+	padding-top: 2%;
+}
+.first_section_about_u h3 {
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+}
+
+.first_section_about_u p {
+	font-size: 16px;
+}
+
+.second_section_about_u {
+	background-image: url('../img/slider/slide3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 10px;
+	background-attachment: fixed;
+}
+.second_section_about_u img {
+	width: 300px;
+	margin-bottom: 20px;
+}
+.second_section_about_u p {
+	color: white;
+	font-size: 13px;
+}
+
+
+.second_section_about_u .check_about_sm {
+	padding: 9% 10px;
+	color: white;
+	font-family: 'Montserrat-Regular';
+}
+
+.second_section_about_u .check_about_sm h5 {
+	font-size: 22px;
+}
+
+.second_section_about_u .check_about_sm i {
+	color: #F7941D;
+}
+
+/*Last Section About us page*/
+
+.our_locations_about_us {
+	padding: 6% 10px;
+}
+
+.our_locations_about_us h1 {
+	color: #253A7F;
+	font-family: 'Montserrat-Light';
+	text-align: center;	
+}
+
+.our_locations_about_us p {
+	font-size: 15px;
+	padding: 10px 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.location_card_about {
+	border: solid #D1D3D4 1px;
+}
+
+.location_card_about img {
+	width: 100%;
+}
+
+.location_card_about h5 {
+	color: #253A7F;
+	font-family: 'Montserrat-Regular';
+	padding: 10px 15px;
+	margin-bottom: 0px;
+	font-size: 17px;
+}
+
+.location_card_about h3 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0px 15px;
+	font-size: 13px;
+}
+
+.location_card_about hr {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.location_card_about p {
+	margin-top: 0px;
+	font-size: 13px;
+	padding-left: 15px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	text-align: left;
+}

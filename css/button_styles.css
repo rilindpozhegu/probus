@@ -1,0 +1,21 @@
+.default_button_all {
+	height: 40px;
+	background-color: #EF7F0F;
+	font-family: 'Montserrat-Bold';
+	color: white;
+	border: solid 1px transparent;
+	border-radius: 30px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.blue_button_all {
+	height: 40px;
+	background-color: #253A7F;
+	font-family: 'Montserrat-Bold';
+	color: white;
+	border: solid 1px transparent;
+	border-radius: 30px;
+	width: 200px;
+	margin-top: 10px;
+}

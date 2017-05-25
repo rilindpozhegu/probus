@@ -1,0 +1,188 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.active_nav {
+    color: #F7941D !important;
+    font-family: 'Montserrat-Bold' !important;
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .navbar-fixed-top {
+        background-color: transparent;
+        border: none; 
+        padding-top: 35px;
+      }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Montserrat-Bold';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*Collapsed*/
+
+.top-nav-collapse {
+  background-color: #253A7F !important;
+  padding-top: 10px !important;
+  transition: ease-in-out all 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.top-nav-collapse img {
+  width: 150px !important;
+  transition: ease-in-out all 0.3s;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+
+.navbar img {
+    width: 200px;
+  transition: ease-in-out all 0.3s;
+}
+
+.navbar-fixed-top {
+  background-color: transparent;
+  border: none;
+  padding-top: 35px;
+  transition: ease-in-out all 0.3s;
+}
+
+/*Ngjyra e linkave ne navigationbar*/
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #EF7F0F;
+  font-family: 'Montserrat-Bold';
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .navbar-header img {
+      float: right;
+      width: 100px;
+      margin-right: 35px;
+    }
+    .navbar-fixed-top {
+      background-color: #253A7F !important; 
+      text-align: center;
+    }
+    .navbar-toggle {
+      float: left;
+      margin-left: 35px;
+      margin-top: 0px;
+      border: none;
+      background-color: transparent !important;
+    }
+    .navbar-toggle {
+      background-color: transparent !important;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: white;
+      width: 25px;
+    }
+    .top-nav-collapse .navbar-toggle {
+      padding-top: 25px;
+      padding-bottom: 20px;
+    }
+    .top-nav-collapse .navbar-header img {
+      width: 80px !important ;
+      transition: ease-in-out all 0.3s;
+      padding-top: 20px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 15px !important;
+    }
+  }
+
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 400px;
+}
+
+
+
+
+  body{
+    scrollbar-face-color: #F7941D;
+    scrollbar-shadow-color: #F7941D;
+    scrollbar-highlight-color: #F7941D;
+    scrollbar-3dlight-color: #F7941D;
+    scrollbar-darkshadow-color: #F7941D;
+    scrollbar-track-color: #F7941D;
+    scrollbar-arrow-color: #F7941D;
+}
+
+/* Let's get this party started */
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+    background: rgba(42, 46, 58, 0.86);
+}
+ 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+    background: #F7941D; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

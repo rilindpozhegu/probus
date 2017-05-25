@@ -1,0 +1,376 @@
+.main_text_hero {
+	position: absolute;
+	top: 32%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.main_text_hero h3 {
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+.main_text_hero h2 {
+	font-family: 'Heavitas';
+	font-size: 75px;
+}
+
+.main_text_hero p {
+	font-size: 18px;
+}
+
+.first_section_home {
+	padding: 6% 10px;
+	background-color: #F1F2F2;
+}
+
+.first_section_home .col-md-7 {
+	padding-top: 2%;
+}
+.first_section_home .col-md-7 img {
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.first_section_home .col-md-7 p {
+	font-size: 13px;
+}
+
+/*Second Section Thin Horizontal*/
+
+.second_section_homepage {
+	background-image: url('../img/spirro_bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0.5% 10px;
+}
+
+.second_section_homepage h2 {
+	color: white;
+	font-family: 'Montserrat-Regular';
+	letter-spacing: -1px;
+}
+
+.second_section_homepage h2 span {
+	color: #EF7F0F;
+}
+
+.second_section_homepage p {
+	color: white;
+	font-size: 17px;
+	margin-top: 7%;
+}
+
+.second_section_homepage input {
+	background-color: transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 2px #fff;
+	transition: ease all 0.3s;
+	width: 50%;
+	margin-top: 10%;
+	padding: 5px 5px;
+	color: #fff;
+}
+
+.second_section_homepage input:hover, .second_section_homepage input:active, .second_section_homepage input:focus {
+	border-bottom: solid 2px #EF7F0F;
+	transition: ease all 0.3s;
+}  
+
+.second_section_homepage button {
+	width: 48%;
+}
+
+.second_section_homepage ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff !important;
+}
+.second_section_homepage ::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+}
+.second_section_homepage :-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+}
+.second_section_homepage :-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;
+}
+
+
+/*	Our Activites Section homepage 	*/
+
+.our_activities_homepage {
+	text-align: center;
+	padding: 4% 10px;
+}
+
+
+.our_activities_homepage h1 {
+	font-family: 'Montserrat-Regular';
+	color: #EF7F0F;
+}
+
+.activities_small_cards {
+	margin-top: 15%;
+	padding: 10px 35px;
+}
+
+.activities_small_cards h4 {
+	font-family: 'Montserrat-Regular';
+	color: #253A7F;
+	font-size: 24px;
+	transition: ease all 0.2s;
+}
+.activities_small_cards:hover h4 {
+	color: #EF7F0F;
+	transition: ease all 0.2s;
+}
+.activities_small_cards p {
+	font-size: 17px;
+}
+
+.activities_small_cards i {
+	font-size: 30px;
+	transition: ease all 0.2s;
+	color: #253A7F;
+}
+
+.activities_small_cards:hover i {
+	color: #EF7F0F;
+	transition: ease all 0.2s;
+}
+
+/*Gallery Section everywhere*/
+
+.gallery_home_section {
+	padding: 0% 10px 5%;
+}
+.gallery_home_section img {
+	margin-top: 10px;
+}
+
+/*Benefits Using Probus*/
+
+.benefits_using_probus_s {
+	background-image: url('../img/background/backg1.png');
+	text-align: center;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 6% 10px;
+}
+
+.benefits_using_probus_s h4 {
+	font-family: 'Montserrat-Light';
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.benefits_using_probus_s p {
+	font-size: 17px;
+	padding: 10px 30px;
+}
+.staff_panel_sm {
+	outline: none !important;
+}
+.benefits_using_probus_s .slick-dots li button:before {
+	font-size: 14px !important;
+	margin-top: 30px !important;
+	margin-bottom: 20px;
+	color: #fff !important;
+	opacity: 0.6 !important;
+}
+.benefits_using_probus_s .slick-dots li button:before:hover {
+	opacity: 0.8 !important;
+}
+.benefits_using_probus_s .slick-dots li.slick-active button:before {
+	color: #EF7F0F !important;
+	opacity: 0.7 !important;
+}
+
+.benefits_using_probus_s .slick-dots li {
+	width: 12px !important;
+}
+
+
+/*Testimonail Seciton, What our client says about us!*/
+
+
+.testimonials_section {
+  padding: 6% 10px;
+  text-align: center;
+  background-color: rgba(242, 242, 242, 0.45);
+}
+.testimonials_section h1 {
+	font-family: 'Montserrat-Regular';
+	color: #F7941D;
+	margin-top: 0px;
+	font-size: 38px;
+	margin-bottom: 3%;
+}
+.horizontal_padding-testimonial {
+	outline: none !important;
+}
+.panel-testimonial1:hover h4 {
+	color: #EF7F0F;
+	transition: ease all 0.3s;
+}
+.testimonials_section h4 {
+  margin-top: 0px;
+  transition: ease all 0.3s;
+  margin-bottom: 10px;
+  font-family: 'Montserrat-Regular';
+  font-size: 22px; 
+}
+
+.testimonials_section p {
+  color: #5D6A84;
+  font-size: 13px;
+  padding: 10px 20px;
+}
+
+.horizontal_padding-testimonial {
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.panel-testimonial1 img {
+  border-radius: 150px;
+  padding: 10px;
+  width: 250px;
+  margin: 0 auto;
+  background: transparent;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(40%);
+  transition: ease-in-out 0.3s all;
+}
+.panel-testimonial1:hover img {
+    -webkit-filter: grayscale(0%);
+    background: white;
+}
+.panel-testimonial1 .testimonial_text {
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 20px;
+  transition: ease-in-out all 0.3s;
+}
+/*.panel-testimonial1:hover .testimonial_text {
+  background-color: white;
+}*/
+.testimonial_text h1 {
+  margin-top: 95px;
+}
+
+.testimonials_section .slick-dots li button:before {
+	font-size: 14px !important;
+	margin-top: 30px !important;
+	margin-bottom: 20px;
+	color: #ccc !important;
+	opacity: 0.6 !important;
+}
+.testimonials_section .slick-dots li button:before:hover {
+	opacity: 0.8 !important;
+}
+.testimonials_section .slick-dots li.slick-active button:before {
+	color: #EF7F0F !important;
+	opacity: 0.7 !important;
+}
+
+.testimonials_section .slick-dots li {
+	width: 12px !important; 
+}
+
+
+/*Staff Section About us page*/
+
+.staff_section_about {
+	background-color: #F1F2F2;
+}
+
+.staff_section_about h1 {
+	color: #253A7F;
+	font-family: 'Montserrat-Light'
+}
+
+.staff_section_about .testimonial_text {
+	background-color: white;
+	padding-top: 120px;
+} 
+
+
+.staff_section_about .panel-testimonial1 img {
+	margin-bottom: -120px;
+	background-color: white;
+}
+
+
+.staff_section_about .horizontal_padding-testimonial {
+	margin-top: 30px;
+}
+
+
+
+
+/*Contact Form Section Materialize*/
+
+.home_input_style {
+	background-image: url('../img/background/footer_bg.png');
+	text-align: center;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 0% 10px;
+}
+
+
+/*Contact_form_whitee*/
+
+.white_contact_form_style {
+	background-color: white !important;
+	background-image: none;
+}
+
+
+.white_contact_form_style .label_string {
+  color:#939598; 
+  font-size:16px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:15px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.white_contact_form_style .group_inputs {
+  color:#F7941D; 
+}
+
+.white_contact_form_style .input_style {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:2px solid #939598;
+  background-color: transparent;
+}
+
+
+.white_contact_form_style .contact_forms_section h2 { 
+  font-family: 'Montserrat-Light';
+  color: #F7941D;
+  text-align: center;
+  font-size: 45px;
+}
+
+.white_contact_form_style .contact_forms_section p {
+  text-align: center;
+  color: #939598;
+  font-size: 14px;
+}
