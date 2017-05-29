@@ -48,7 +48,10 @@ module.exports = function(grunt) {
 					'js/active_property.js',
 
 					 // Smooth Scroll Script + time to Scroll,
+					'js/smoothscroll.js',
 
+					// Auto type Js
+					'js/typed.min.js',
 					],
 
 				dest: 'build/scripts.js'

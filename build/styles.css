@@ -3493,6 +3493,47 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+        /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+        .typed-fade-out{
+            opacity: 0;
+            animation: 0;
+            transition: opacity .25s;
+        }
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -3508,7 +3549,19 @@ Copyright (c) 2015 Daniel Eden
 	border-radius: 30px;
 	width: 200px;
 	margin-top: 10px;
+	transition: ease all 0.5s;
 }
+
+.default_button_all:hover {
+	background-color: rgba(247, 148, 29, 0.87);
+	color: #fff;
+	border-radius: 0px;
+	transition: ease all 0.3s;
+	border: solid 1px rgba(247, 148, 29, 0.87);
+}
+
+
+
 
 .blue_button_all {
 	height: 40px;
@@ -3560,9 +3613,17 @@ Copyright (c) 2015 Daniel Eden
 }
 .main_text_hero h2 {
 	font-family: 'Heavitas';
-	font-size: 75px;
+    font-size: 117px;
+    color: white;
+    /*mix-blend-mode: overlay;*/
 }
-
+.main_text_hero h2 span {
+	transition: ease all 0.3s;	
+}
+.main_text_hero h2:hover span {
+	color: #F7941D;
+	transition: ease all 0.3s;
+}
 .main_text_hero p {
 	font-size: 18px;
 }
@@ -3855,9 +3916,12 @@ Copyright (c) 2015 Daniel Eden
 
 .staff_section_about .horizontal_padding-testimonial {
 	margin-top: 30px;
+	outline: none !important; 
 }
 
-
+.staff_about_us .col-md-4 {
+	outline: none !important;
+}
 
 
 /*Contact Form Section Materialize*/
@@ -3879,6 +3943,12 @@ Copyright (c) 2015 Daniel Eden
 .white_contact_form_style {
 	background-color: white !important;
 	background-image: none;
+}
+
+.ccc_contact_form_style {
+	background-color: #F1F2F2 !important;
+	background-image: none;
+	padding: 3.5% 10px;
 }
 
 
@@ -4190,13 +4260,37 @@ html {
 .active_nav {
     color: #F7941D !important;
     font-family: 'Montserrat-Bold' !important;
+    border-bottom: solid 2px transparent;
 }
+
+
+.navbar-default .navbar-nav > li > a {
+  position: relative;
+}
+.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #F7941D;
+  content: "";
+  transition: width 0.2s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F7941D;
+}
+.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
 
 
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 15px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -4220,7 +4314,13 @@ html {
   background-color: #253A7F !important;
   padding-top: 10px !important;
   transition: ease-in-out all 0.3s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+}
+.top-nav-collapse .active_nav {
+    color: #F7941D !important;
+    font-family: 'Montserrat-Bold' !important;
+    border-bottom: solid 2px #F7941D;
+    padding-bottom: 10px !important;
 }
 
 .top-nav-collapse img {
@@ -4251,11 +4351,14 @@ html {
   padding-top: 20px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
   color: #EF7F0F;
   font-family: 'Montserrat-Bold';
 }
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: transparent;
+}
 /*
 ///////////////////////////////////////////////////
 Responsive Part 
@@ -4332,7 +4435,7 @@ Responsive Part
 
 /* Let's get this party started */
 body::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
 }
 
 /* Track */
@@ -4731,6 +4834,27 @@ Responsive Part
     }
 }
 
+    /* Header */
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+/*.demo-1 .large-header {
+    background-image: url('../img/demo-1-bg.jpg');
+}*/
+
+.carousel-inner .large-header {
+    background-image: url('../img/demo-2-bg.jpg');
+    background-position: center bottom;
+}
+
+
 
 /*	MOBILE 	*/
 /*Only in desktop*/
@@ -4746,6 +4870,63 @@ Responsive Part
    		display: none !important;
   	}
   	.staff_section_about .slick-dots {
-		display: none !important;
-	}
+  		display: none !important;
+  	}
+    .main_text_hero h2 {
+      font-family: 'Heavitas';
+      font-size: 50px;
+      color: white;
+      /*mix-blend-mode: overlay;*/
+    }
+    .main_text_hero p {
+        font-size: 14px;
+    }
+    .second_section_homepage {
+        background-image: url(../img/spirro_bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5% 10px;
+        text-align: center;
+    }
+    .benefits_using_probus_s {
+      padding: 13% 0px;
+    }
+    .testimonials_section {
+        padding: 15% 4px;
+        text-align: center;
+        background-color: rgba(242, 242, 242, 0.45);
+    }
+    .general_footer .col-xs-12 {
+      text-align: center;
+    }
+    .second_section_about_u {
+      padding: 15% 10px;
+    }
+    .second_section_about_u img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .second_section_about_u .check_about_sm h5 {
+        font-size: 17px;
+    }
+    .location_card_about {
+        border: solid #D1D3D4 1px;
+        margin-top: 20px;
+    }
+    .col-md-12 .client_list {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .client_list li img {
+        width: 20%;
+    }
+    .tab_section_one_projects p {
+        font-size: 15px;
+    }
+    .quality_text_panel {
+        padding: 4.5% 4.5% 0px;
+        margin-bottom: 20px;
+    }
   }

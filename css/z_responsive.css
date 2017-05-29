@@ -14,6 +14,63 @@
    		display: none !important;
   	}
   	.staff_section_about .slick-dots {
-		display: none !important;
-	}
+  		display: none !important;
+  	}
+    .main_text_hero h2 {
+      font-family: 'Heavitas';
+      font-size: 50px;
+      color: white;
+      /*mix-blend-mode: overlay;*/
+    }
+    .main_text_hero p {
+        font-size: 14px;
+    }
+    .second_section_homepage {
+        background-image: url(../img/spirro_bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6.5% 10px;
+        text-align: center;
+    }
+    .benefits_using_probus_s {
+      padding: 13% 0px;
+    }
+    .testimonials_section {
+        padding: 15% 4px;
+        text-align: center;
+        background-color: rgba(242, 242, 242, 0.45);
+    }
+    .general_footer .col-xs-12 {
+      text-align: center;
+    }
+    .second_section_about_u {
+      padding: 15% 10px;
+    }
+    .second_section_about_u img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .second_section_about_u .check_about_sm h5 {
+        font-size: 17px;
+    }
+    .location_card_about {
+        border: solid #D1D3D4 1px;
+        margin-top: 20px;
+    }
+    .col-md-12 .client_list {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .client_list li img {
+        width: 20%;
+    }
+    .tab_section_one_projects p {
+        font-size: 15px;
+    }
+    .quality_text_panel {
+        padding: 4.5% 4.5% 0px;
+        margin-bottom: 20px;
+    }
   }

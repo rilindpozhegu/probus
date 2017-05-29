@@ -31,9 +31,9 @@
     <section class="quality_cover_section main_text_hero">
         <div class="container">
             <div class="row">
-                <h3>PROBUS</h3>
-                <h2>QUALITY & HSSE</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
+                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">QUALITY & HSSE</h2>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
             </div>
         </div>
     </section>
@@ -48,9 +48,9 @@
                 <img src="img/quality/img1.png">
             </div>
             <div class="col-md-6 quality_text_panel">
-                <h1>Yearly Statistics</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
-                <button class="blue_button_all">View PDF</button>
+                <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Yearly Statistics</h1>
+                <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+                <button class="blue_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">View PDF</button>
             </div>
 
             <div class="clearfix"></div>
@@ -59,9 +59,9 @@
                 <img src="img/quality/img2.png">
             </div>
             <div class="col-md-6 quality_text_panel">
-                <h1>Yearly Statistics</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
-                <button class="blue_button_all">View PDF</button>
+                <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Commitment</h1>
+                <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+                <button class="blue_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">View PDF</button>
             </div>
 
             <div class="col-md-6 no_padding mobile-d-n">
@@ -74,9 +74,9 @@
                 <img src="img/quality/img1.png">
             </div>
             <div class="col-md-6 quality_text_panel">
-                <h1>Yearly Statistics</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
-                <button class="blue_button_all">View PDF</button>
+                <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Managing Hazards</h1>
+                <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+                <button class="blue_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">View PDF</button>
             </div>
             
             <div class="clearfix"></div>
@@ -85,9 +85,9 @@
                 <img src="img/quality/img2.png">
             </div>
             <div class="col-md-6 quality_text_panel">
-                <h1>Yearly Statistics</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
-                <button class="blue_button_all">View PDF</button>
+                <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Improvements</h1>
+                <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+                <button class="blue_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">View PDF</button>
             </div>
 
             <div class="col-md-6 no_padding mobile-d-n">
@@ -109,9 +109,9 @@
             
                 <div class="staff_panel_sm">
                     <div class="staff_small_p_text ">
-                        <h4>Probus Quality</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#"><button class="blue_button_all">Contact Us</button></a>
+                        <h4 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Probus Quality</h4>
+                        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <a href="#"><button class="blue_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">Contact Us</button></a>
                     </div>
                 </div>
                 <div class="staff_panel_sm">

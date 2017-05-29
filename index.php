@@ -31,25 +31,31 @@
     <section class="home_cover_section main_text_hero">
         <div class="container">
             <div class="row">
-                <h3>A WARM</h3>
-                <h2>WELCOME</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A WARM</h3>
+                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELLCOME</h2>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen <span id="typed"></span></p>
             </div>
         </div>
     </section>
 
+            <div id="titles_mor">
+                <h3>Book.</h3>
+                <h3>Notebook.</h3>
+            </div>  
+
+<div class="clearfix"></div>
     <!-- First Section homepage -->
     <section class="first_section_home">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="img/home_double_i.png" class="img-responsive">
+                    <img src="img/home_double_i.png" class="img-responsive wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".2s">
                 </div>
                 <div class="col-md-7">
-                    <img src="img/logo_two.png">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <button class="default_button_all">Services</button>
+                    <img src="img/logo_two.png" class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
+                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button class="default_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".5s">Services</button>
                 </div>
             </div>
         </div>
@@ -61,7 +67,6 @@
 <!-- Our Activities + Gallery Section -->
     <?php include 'our_activities_section.php';?>
 
-
 <!-- Benefits Using Probus -->
     <?php include 'benefits_slick_section.php';?>
 
@@ -71,7 +76,7 @@
 <section class="testimonials_section ">
     <div class="container">
         <div class="row">
-        <h1>What Our Clients Say</h1>
+        <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">What Our Clients Say</h1>
             <div class="responsive_testimonials">            
                 <div class="horizontal_padding-testimonial">
                     <div class="panel-testimonial1">
@@ -151,6 +156,35 @@
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
+    <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function(){
+
+        Typed.new("#typed", {
+            stringsElement: document.getElementById('titles_mor'),
+            typeSpeed: 30,
+            backDelay: 1500,
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to null for infinite loop
+            loopCount: null,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        var resetElement = document.querySelector('.reset');
+        if(resetElement) {
+            resetElement.addEventListener('click', function() {
+                document.getElementById('typed')._typed.reset();
+            });
+        }
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
 </body>
 
 </html>

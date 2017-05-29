@@ -33,9 +33,9 @@
     <section class="about_cover_section main_text_hero">
         <div class="container">
             <div class="row">
-                <h3>PROBUS</h3>
-                <h2>ACTIVITIES</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
+                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">ACTIVITIES</h2>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
             </div>
         </div>
     </section>
@@ -52,10 +52,10 @@
 <section class="clients_activities_page">
     <div class="container">
         <div class="row">
-            <h1>Key Clients</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+            <h1 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">Key Clients</h1>
+            <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
             <div class="col-md-12 col-sm-12 col-xs-12">
-            <ul class="client_list">
+            <ul class="client_list wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">
               <li><img src="img/client/client1.png"></li>
               <li><img src="img/client/client2.png"></li>
               <li><img src="img/client/client4.png"></li>

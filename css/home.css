@@ -12,9 +12,17 @@
 }
 .main_text_hero h2 {
 	font-family: 'Heavitas';
-	font-size: 75px;
+    font-size: 117px;
+    color: white;
+    /*mix-blend-mode: overlay;*/
 }
-
+.main_text_hero h2 span {
+	transition: ease all 0.3s;	
+}
+.main_text_hero h2:hover span {
+	color: #F7941D;
+	transition: ease all 0.3s;
+}
 .main_text_hero p {
 	font-size: 18px;
 }
@@ -307,9 +315,12 @@
 
 .staff_section_about .horizontal_padding-testimonial {
 	margin-top: 30px;
+	outline: none !important; 
 }
 
-
+.staff_about_us .col-md-4 {
+	outline: none !important;
+}
 
 
 /*Contact Form Section Materialize*/
@@ -331,6 +342,12 @@
 .white_contact_form_style {
 	background-color: white !important;
 	background-image: none;
+}
+
+.ccc_contact_form_style {
+	background-color: #F1F2F2 !important;
+	background-image: none;
+	padding: 3.5% 10px;
 }
 
 

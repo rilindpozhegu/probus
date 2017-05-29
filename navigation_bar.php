@@ -33,7 +33,7 @@
                             <a class="page-scroll" href="quality&hse.php">QUALITY & HSE</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="media">GALLERY</a>
+                            <a class="page-scroll" href="gallery.php">GALLERY</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#contact_section">CONTACT</a>

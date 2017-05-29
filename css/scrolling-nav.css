@@ -26,13 +26,37 @@ html {
 .active_nav {
     color: #F7941D !important;
     font-family: 'Montserrat-Bold' !important;
+    border-bottom: solid 2px transparent;
 }
+
+
+.navbar-default .navbar-nav > li > a {
+  position: relative;
+}
+.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #F7941D;
+  content: "";
+  transition: width 0.2s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F7941D;
+}
+.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
 
 
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 15px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -56,7 +80,13 @@ html {
   background-color: #253A7F !important;
   padding-top: 10px !important;
   transition: ease-in-out all 0.3s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+}
+.top-nav-collapse .active_nav {
+    color: #F7941D !important;
+    font-family: 'Montserrat-Bold' !important;
+    border-bottom: solid 2px #F7941D;
+    padding-bottom: 10px !important;
 }
 
 .top-nav-collapse img {
@@ -87,11 +117,14 @@ html {
   padding-top: 20px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
   color: #EF7F0F;
   font-family: 'Montserrat-Bold';
 }
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: transparent;
+}
 /*
 ///////////////////////////////////////////////////
 Responsive Part 
@@ -168,7 +201,7 @@ Responsive Part
 
 /* Let's get this party started */
 body::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
 }
 
 /* Track */

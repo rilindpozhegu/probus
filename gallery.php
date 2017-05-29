@@ -44,21 +44,21 @@
 <section class="tab_section_one_projects">
     <div class="container">
         <div class="row">
-        <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Our Projects</h1>
+        <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Gallery & Reports</h1>
         <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the<br> industry</p>
             <div class="tab_buttons_projec col-md-4 col-md-offset-4">
                 <ul class="nav nav-pills nav-fill wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
-                    <li class="active"><a data-toggle="tab" href="#home">Within UAE</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Outside UAE</a></li>
+                    <li class="active"><a data-toggle="tab" href="#tab_ga_1">Gallery</a></li>
+                    <li><a data-toggle="tab" href="#tab_ga_2">Reports</a></li>
                  </ul>
             </div>  
             <div class="clearfix"></div>
             <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
+                <div id="tab_ga_1" class="tab-pane fade in active">
                     <!-- Gallery Section -->
                     <?php include 'gallery_all_pages.php';?>
                 </div>
-                <div id="menu1" class="tab-pane fade">
+                <div id="tab_ga_2" class="tab-pane fade">
                     <!-- Gallery Section -->
                     <?php include 'gallery_all_pages.php';?>
                 </div>
@@ -68,10 +68,9 @@
     </div>
 </section>
 
-<section class="home_input_style">
+<section class="home_input_style white_contact_form_style ccc_contact_from">
     <?php include 'contact_section_input.php';?>
 </section>    
-
 
 <!-- Footer all Pages -->    
     <?php include 'footer_all.php';?>

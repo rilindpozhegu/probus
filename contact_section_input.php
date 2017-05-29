@@ -1,5 +1,5 @@
 
-<section class="contact_forms_section">
+<section class="contact_forms_section" id="contact_section">
     <div class="container">
         <div class="row">
            <h2 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".1s">Get In Touch</h2>
