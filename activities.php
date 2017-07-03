@@ -35,7 +35,7 @@
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
                 <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">ACTIVITIES</h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus is a leader in EPC (engineering, procurement, construction) and Maintenance Solutions in the energy sector, particularly Oil &amp; Gas, in the Gulf Region. We strive to always surpass our clients’ expectations and deliver the highest quality services in the region. (please mention infrastructural.</p>
             </div>
         </div>
     </section>
@@ -44,16 +44,51 @@
 <!-- Our Activities + Gallery Section -->
     <?php include 'our_activities_section.php';?>
 
+<section class="benefits_using_probus_s">
+    <div class="container">
+        <div class="row">
+            <div class="responsive_portfolio">
+            
+                <div class="staff_panel_sm">
+                    <div class="staff_small_p_text ">
+                        <h4>Brownfield Services & Plant Maintenance</h4>
+                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
+                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                    </div>
+                </div>
+                <div class="staff_panel_sm">
+                    <div class="staff_small_p_text ">
+                        <h4>Brownfield Services & Plant Maintenance</h4>
+                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
+                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                    </div>
+                </div>
+                <div class="staff_panel_sm">
+                    <div class="staff_small_p_text ">
+                        <h4>Brownfield Services & Plant Maintenance</h4>
+                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
+                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                    </div>
+                </div>
+                <div class="staff_panel_sm">
+                    <div class="staff_small_p_text ">
+                        <h4>Brownfield Services & Plant Maintenance</h4>
+                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
+                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                    </div>
+                </div>
 
-<!-- Benefits Using Probus -->
-    <?php include 'benefits_slick_section.php';?>
+            </div>    
+        </div>
+    </div>
+</section>
 
 <!-- last section on the activities page -->
 <section class="clients_activities_page">
     <div class="container">
         <div class="row">
             <h1 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">Key Clients</h1>
-            <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+            <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Over the years, Probus has worked with and thoroughly surpassed the expectations of numerous high-profile clients in UAE and Iraq. Probus is also pre-qualified as an EPC and maintenance contractor with ADNOC group companies.</p>
             <div class="col-md-12 col-sm-12 col-xs-12">
             <ul class="client_list wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">
               <li><img src="img/client/client1.png"></li>

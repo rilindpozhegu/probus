@@ -4205,6 +4205,60 @@ Copyright (c) 2015 Daniel Eden
 	transition: all ease 0.2s;
 	margin: 10px 0px 0px;
 }
+
+
+/* Images and Popups for more details */
+
+.image_details_a {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(239, 127, 15, 0.44);
+}
+
+.image_details_a:hover .overlay {
+  opacity: 1;
+}
+
+.button_details_projects {
+	height: 40px;
+	background-color: transparent;
+	font-family: 'Montserrat-Bold';
+	color: #fff;
+	border: solid 1px #fff;
+	border-radius: 30px;
+	width: 120px;
+	transition: all ease 0.2s;
+	margin: 10px 0px 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.button_details_projects:hover {
+	border-radius: 0px;
+	transition: ease-in-out 0.3s all;
+}
+
+
 .fisrt_quality_section img {
 	width: 100%;
 }
@@ -4219,7 +4273,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .quality_text_panel p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .probus_quality_slider {

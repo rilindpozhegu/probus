@@ -32,16 +32,17 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A WARM</h3>
-                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELLCOME</h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen <span id="typed"></span></p>
+                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELLCOME</h2><p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Welcome to Probus Engineering and Construction, a market leader providing services and bespoke solutions to the Oil and Gas Industries and Infrastructure sector. Located in Abu Dhabi and active within the Gulf Region, Probus prides itself on its client focus, delivery capability and inherent agility.</p>
+
+                <!-- <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">and scrambled it to<br> make a type specimen <span id="typed"></span></p> -->
             </div>
         </div>
     </section>
 
-            <div id="titles_mor">
+            <!-- <div id="titles_mor">
                 <h3>Book.</h3>
                 <h3>Notebook.</h3>
-            </div>  
+            </div>   -->
 
 <div class="clearfix"></div>
     <!-- First Section homepage -->
@@ -73,7 +74,7 @@
 <!-- Testimonial section, What our clients says about us! -->
 
 
-<section class="testimonials_section ">
+<!-- <section class="testimonials_section ">
     <div class="container">
         <div class="row">
         <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">What Our Clients Say</h1>
@@ -105,46 +106,10 @@
                         </div>
                     </div>
                 </div>    
-                <div class="horizontal_padding-testimonial">
-                    <div class="panel-testimonial1">
-                        <img src="img/testimonial.png">
-                        <div class="row testimonial_text">
-                        <h4>Sacha Christe</h4>
-                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="horizontal_padding-testimonial">
-                    <div class="panel-testimonial1">
-                        <img src="img/testimonial.png">
-                        <div class="row testimonial_text">
-                        <h4>Sacha Christe</h4>
-                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="horizontal_padding-testimonial">
-                    <div class="panel-testimonial1">
-                        <img src="img/testimonial.png">
-                        <div class="row testimonial_text">
-                        <h4>Sacha Christe</h4>
-                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="horizontal_padding-testimonial">
-                    <div class="panel-testimonial1">
-                        <img src="img/testimonial.png">
-                        <div class="row testimonial_text">
-                        <h4>Sacha Christe</h4>
-                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="home_input_style">
     <?php include 'contact_section_input.php';?>
