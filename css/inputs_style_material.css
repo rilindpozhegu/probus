@@ -37,7 +37,7 @@
 .input_style:focus ~ .label_string, .input_style:valid ~ .label_string    {
   top:-10px;
   font-size:12px;
-  color:#F7941D;
+  color:red;
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;

@@ -1,0 +1,28 @@
+.map_section_contact {
+	margin-top: 6%;
+}
+
+.label_string_2 {
+	color: #939598 !important;
+}
+
+.group_inputs2 {
+	color: #666666 !important;
+}
+
+.input_style2 {
+  border-bottom:2px solid #939598 !important;
+}
+
+.contact_forms_section2 h2 { 
+  font-family: 'Montserrat-Regular' !important;
+  color: #253A7F !important;
+  text-align: left !important;
+  font-size: 45px;
+}
+
+.contact_forms_section2 p {
+  text-align: left !important;
+  color: #666666 !important;
+  font-size: 18px !important;
+}

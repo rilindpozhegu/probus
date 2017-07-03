@@ -3573,6 +3573,34 @@ Copyright (c) 2015 Daniel Eden
 	width: 200px;
 	margin-top: 10px;
 }
+.map_section_contact {
+	margin-top: 6%;
+}
+
+.label_string_2 {
+	color: #939598 !important;
+}
+
+.group_inputs2 {
+	color: #666666 !important;
+}
+
+.input_style2 {
+  border-bottom:2px solid #939598 !important;
+}
+
+.contact_forms_section2 h2 { 
+  font-family: 'Montserrat-Regular' !important;
+  color: #253A7F !important;
+  text-align: left !important;
+  font-size: 45px;
+}
+
+.contact_forms_section2 p {
+  text-align: left !important;
+  color: #666666 !important;
+  font-size: 18px !important;
+}
 
 /*General Footer Section on all Pages!!!*/
 
@@ -4031,7 +4059,7 @@ Copyright (c) 2015 Daniel Eden
 .input_style:focus ~ .label_string, .input_style:valid ~ .label_string    {
   top:-10px;
   font-size:12px;
-  color:#F7941D;
+  color:red;
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;

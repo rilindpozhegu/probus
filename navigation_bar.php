@@ -1,7 +1,7 @@
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top colored_backgorund_nav" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll ">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -36,7 +36,7 @@
                             <a class="page-scroll" href="gallery.php">GALLERY</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact_section">CONTACT</a>
+                            <a class="page-scroll" href="contact.php">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
