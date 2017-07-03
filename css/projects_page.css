@@ -56,6 +56,7 @@
 
 .image_details_a {
   position: relative;
+  margin: 4px 0px;
 }
 
 .image {
@@ -74,7 +75,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(239, 127, 15, 0.44);
+  background-color: rgba(239, 127, 15, 0.52);
 }
 
 .image_details_a:hover .overlay {
@@ -103,3 +104,46 @@
 	transition: ease-in-out 0.3s all;
 }
 
+/* Modal Style */
+
+.modal_style_details img {
+	width: 100%;
+
+}
+
+.modal_style_details .clients_logo_popup {
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+.modal_style_details .modal-footer {
+	padding: 0px !important;
+}
+
+.modal_style_details .modal_text_details {
+	padding: 4% 4% 0px;
+}
+.modal_style_details .modal-body {
+	padding: 0px;
+}
+
+.modal_text_details button {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: transparent;
+	color: black;
+	font-size: 16px;
+	border: transparent;
+}
+
+.modal_text_details button:hover {
+	color: #F7941D;
+}
+
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(42, 46, 58, 0.65);
+}

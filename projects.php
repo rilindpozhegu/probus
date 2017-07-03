@@ -55,7 +55,47 @@
             <div class="clearfix"></div>
 
             <div class="our_projects_details">
-                <div class="col-md-4">
+                <div class="col-md-4 small_padding-lr">
+                    <div class="image_details_a">
+                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
+                        <div class="overlay">
+                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 small_padding-lr">
+                    <div class="image_details_a">
+                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
+                        <div class="overlay">
+                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 small_padding-lr">
+                    <div class="image_details_a">
+                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
+                        <div class="overlay">
+                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 small_padding-lr">
+                    <div class="image_details_a">
+                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
+                        <div class="overlay">
+                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 small_padding-lr">
+                    <div class="image_details_a">
+                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
+                        <div class="overlay">
+                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 small_padding-lr">
                     <div class="image_details_a">
                         <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
                         <div class="overlay">
@@ -74,19 +114,23 @@
 <!-- Modals for each Image -->
 
   <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg" style="margin-top: 6%;">
     
       <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
+      <div class="modal-content modal_style_details">
         <div class="modal-body">
-          <p>Some text in the modal.</p>
+            <div class="col-md-6 no_padding">
+                <img src="img/about_first.png">
+            </div>
+            <div class="col-md-6 modal_text_details">
+            <button type="button" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <img src="img/client/client3.png" class="clients_logo_popup">
+                <h2>Project Name</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+            </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
       
