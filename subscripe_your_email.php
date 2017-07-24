@@ -5,7 +5,7 @@
                 <h2><span>Subscribe</span><br> To Our Newsletter</h2>
             </div>
             <div class="col-md-4">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Simply enter your email address to receive updates about Probus.</p>
             </div>
             <div class="col-md-4 input_emai_home_two">
                 <input type="" name="" placeholder="Email">

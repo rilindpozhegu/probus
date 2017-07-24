@@ -3748,6 +3748,10 @@ Copyright (c) 2015 Daniel Eden
 	color: #EF7F0F;
 }
 
+.our_activities_homepage img {
+	 width: 30%;
+	 margin-bottom: 20px;
+}
 .activities_small_cards {
 	margin-top: 15%;
 	padding: 10px 35px;
@@ -3785,6 +3789,9 @@ Copyright (c) 2015 Daniel Eden
 }
 .gallery_home_section img {
 	margin-top: 10px;
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
 }
 
 /*Benefits Using Probus*/

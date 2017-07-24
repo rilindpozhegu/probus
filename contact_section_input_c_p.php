@@ -39,11 +39,14 @@
 
             <div class="col-md-5 col-md-offset-1">
             <h2 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".1s">Get In Touch</h2>
-            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">Cluster Y, Swiss Tower, 34th Floor, Office 15 Jumeirah Lake Towers, Dubai, UAE</p>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">702,Gulf Business Center <br>
+            Abu Dhabi Plaza Tower, Hamdan Street<br>
+            Abu Dhabi, United Arab Emirates
+            </p>
             <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">
-            Tel : +971 4 456 69 53 <br>
-            Mob : +971 50 9124567</p>
-            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">info@emiratesgraphic.com</p>
+            Tel : +971 2 677 31 44 <br>
+            Fax : + 971 2 677 31 43</p>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">info@probusec.com</p>
             </div>
 
             <!-- <div class="col-md-2"></div> -->

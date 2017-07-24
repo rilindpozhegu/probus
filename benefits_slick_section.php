@@ -7,29 +7,22 @@
                 <div class="staff_panel_sm">
                     <div class="staff_small_p_text ">
                         <h4>Benefits of Using Probus</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                        <p>Probus pairs years of experience and expertise with the highest standards in quality and safety. By letting us take care of an entire project or even just using our maintenance services, you ensure the best results, delivered on time and within cost.</p>
+                        <a href="contact.php"><button class="default_button_all">Contact Us</button></a>
                     </div>
                 </div>
                 <div class="staff_panel_sm">
                     <div class="staff_small_p_text ">
                         <h4>Benefits of Using Probus</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                        <p>Probus pairs years of experience and expertise with the highest standards in quality and safety. By letting us take care of an entire project or even just using our maintenance services, you ensure the best results, delivered on time and within cost.</p>
+                        <a href="contact.php"><button class="default_button_all">Contact Us</button></a>
                     </div>
                 </div>
                 <div class="staff_panel_sm">
                     <div class="staff_small_p_text ">
                         <h4>Benefits of Using Probus</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
-                    </div>
-                </div>
-                <div class="staff_panel_sm">
-                    <div class="staff_small_p_text ">
-                        <h4>Benefits of Using Probus</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
+                        <p>Probus pairs years of experience and expertise with the highest standards in quality and safety. By letting us take care of an entire project or even just using our maintenance services, you ensure the best results, delivered on time and within cost.</p>
+                        <a href="contact.php"><button class="default_button_all">Contact Us</button></a>
                     </div>
                 </div>
 

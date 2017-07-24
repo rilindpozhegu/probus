@@ -15,7 +15,7 @@
     <title>Probus</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="build/styles.css">
+    <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -33,7 +33,7 @@
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A LITTLE ABOUT</h3>
                 <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">PR<span>O</span>BUS</h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus Engineering has made a name for itself in the Oil & Gas and Infrastructure sectors through goal-driven work and a standard for excellence. We believe that speed as well as quality of work are essential in helping our clients on a daily basis.</p>
             </div>
         </div>
     </section>
@@ -49,8 +49,8 @@
 			</div>
 			<div class="col-md-7">
 				<h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">OUR VISION</h3>
-				<p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-				<p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Our vision is to maintain our status as a leader in our industry, but to keep going above and beyond our clients’ expectations in delivering excellence.</p>
+				<p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">We plan on achieving this by treating every project according to its unique needs and specifications and constantly honing our expertise in engineering. We also aim to maintain and constantly improve on the quality as well as the responsiveness of our services.</p>
 			</div>
 		</div>
 	</div>
@@ -91,11 +91,15 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff1.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Kurt Reeves</h4>
+                            <h3>CEO</h3>
+                            <p>Career Highlights :<br>
+                            •   EPC MD, 
+                            •   EPC SVP<br>
+                            •   PD/PM for Mega Projects Africa/South America
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -103,11 +107,13 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff2.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Andy Howell</h4>
+                            <h3>Head of HSSEQ</h3>
+                            <p>Career Highlights :<br>
+                            •   More than 25 years of experience in HSSEQ field <br>&nbsp;
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -115,11 +121,13 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff3.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Satyabhan Thakur</h4>
+                            <h3>Head of HO Services</h3>
+                            <p>Career Highlights :<br>
+                            •   More than 25 years of experience in O&G EPC <br>&nbsp;
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -127,11 +135,14 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff4.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Kinan Mawad</h4>
+                            <h3>Head of Projects</h3>
+                            <p>Career Highlights :<br>
+                            •   Fabrication and Modular Shop PD<br>
+                            •   EPC PM <br>&nbsp;
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -139,11 +150,30 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff5.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Houssam Moukanna</h4>
+                            <h3>Head of Contracts</h3>
+                            <p>Career Highlights :<br>
+                            •   Fabrication and Modular Shop Contacts Manager<br>
+                            •   EPC Site Sub-Contract Manager
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">            
+                    <div class="horizontal_padding-testimonial">
+                        <div class="panel-testimonial1">
+                            <img src="img/staff/staff6.png">
+                            <div class="row testimonial_text">
+                            <h4>Mohammad Radaideh</h4>
+                            <h3>Head of Projects</h3>
+                            <p>Career Highlights :<br>
+                            •   Site Manager<br>
+                            •   Interface Manager<br>
+                            •   Proposal Lead
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -151,11 +181,29 @@
                 <div class="col-md-4">            
                     <div class="horizontal_padding-testimonial">
                         <div class="panel-testimonial1">
-                            <img src="img/testimonial.png">
+                            <img src="img/staff/staff7.png">
                             <div class="row testimonial_text">
-                            <h4>Sacha Christe</h4>
-                            <h3>CEO/FOUNDER</h3>
-                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled "</p>
+                            <h4>Kamal Fayad</h4>
+                            <h3>Head of Admin & HR</h3>
+                            <p>Career Highlights :<br>
+                            •   Administration & HR Manager <br>&nbsp; <br>&nbsp;
+                            </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-4">            
+                    <div class="horizontal_padding-testimonial">
+                        <div class="panel-testimonial1">
+                            <img src="img/staff/staff8.png">
+                            <div class="row testimonial_text">
+                            <h4>DebjitSanpui</h4>
+                            <h3>Engineering Manager</h3>
+                            <p>Career Highlights :<br>
+                            •   Engineering Manager<br>
+                            •   Proposal Manager<br>
+                            •   Process Lead Engineer
+                            </p>
                             </div>
                         </div>
                     </div>    
@@ -174,7 +222,7 @@
     <div class="container">
         <div class="row">
         <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">OUR LOCATIONS</h1>
-        <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with des</p>
+        <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">With its headquarters in Abu Dhabi, Probus operates Engineering centres in India and Iraq in order to harness an international expertise as well as improve local responsiveness.</p>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">
                 <div class="location_card_about">
                     <img src="img/location1.png">

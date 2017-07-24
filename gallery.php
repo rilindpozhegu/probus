@@ -15,7 +15,7 @@
     <title>Probus</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="build/styles.css">
+    <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -33,7 +33,7 @@
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
                 <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">PROJECTS</h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to<br> make a type specimen book.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus has carried out multiple projects in the MENA region – we invite you to take a look at some of our work below:</p>
             </div>
         </div>
     </section>
@@ -44,14 +44,14 @@
 <section class="tab_section_one_projects">
     <div class="container">
         <div class="row">
-        <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Gallery & Reports</h1>
-        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the<br> industry</p>
+        <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Gallery & References</h1>
+        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Our success in the Oil & Gas industry given us a rich portfolio of <br>projects as well as references. You can find a gallery of them below:</p><!-- 
             <div class="tab_buttons_projec col-md-4 col-md-offset-4">
                 <ul class="nav nav-pills nav-fill wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
                     <li class="active"><a data-toggle="tab" href="#tab_ga_1">Gallery</a></li>
                     <li><a data-toggle="tab" href="#tab_ga_2">Reports</a></li>
                  </ul>
-            </div>  
+            </div>   -->
             <div class="clearfix"></div>
             <div class="tab-content">
                 <div id="tab_ga_1" class="tab-pane fade in active">

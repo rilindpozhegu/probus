@@ -15,7 +15,7 @@
     <title>Probus</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="build/styles.css">
+    <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A WARM</h3>
-                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELLCOME</h2><p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Welcome to Probus Engineering and Construction, a market leader providing services and bespoke solutions to the Oil and Gas Industries and Infrastructure sector. Located in Abu Dhabi and active within the Gulf Region, Probus prides itself on its client focus, delivery capability and inherent agility.</p>
+                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELCOME</h2><p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Welcome to Probus Engineering and Construction, a market leader providing services and bespoke solutions to the Oil and Gas Industries and Infrastructure sector. Located in Abu Dhabi and active within the Gulf Region, Probus prides itself on its client focus, delivery capability and inherent agility.</p>
 
                 <!-- <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">and scrambled it to<br> make a type specimen <span id="typed"></span></p> -->
             </div>
@@ -54,8 +54,8 @@
                 </div>
                 <div class="col-md-7">
                     <img src="img/logo_two.png" class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
-                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Probus Engineering and Construction Pte Ltd (PEC), previously UnaE&amp;C Pte Ltd, is a Company incorporated in Singapore with its Operations Head Office in Abu Dhabi. UnaE&amp;C Pte Ltd was purchased in Feb 2017 by its new owner and, since then the Company has been operating under new leadership with the aim of expanding its Abu Dhabi footprint and re-entering Iraq.</p>
+                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s"> PEC is focused on the Oil and Gas OPEX market, working together with its Clients to deliver tailor-made EPC solutions for capacity/HSSE/other upgrades/modifications, both in the brownfield and greenfield environments as well as Maintenance (including SD/TR) based packages. PEC is a fully Iso certified Company with PQs across all Abu Dhabi OPCOs and with a track record of delivery in both Abu Dhabi and Iraq. PEC is diversifying into infrastructure and is following tenders in Abu Dhabi.</p>
                     <button class="default_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".5s">Services</button>
                 </div>
             </div>

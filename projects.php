@@ -15,7 +15,7 @@
     <title>Probus</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="build/styles.css">
+    <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -33,7 +33,7 @@
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
                 <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">PROJECTS</h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Abu Dhabi National Oil Company (ADNOC) Pre-Qualified EPC/Maintenance Contractor with a track record of delivery in the UAE and An Iraq.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Abu Dhabi National Oil Company (ADNOC) Pre-Qualified EPC/Maintenance<br> Contractor with a track record of delivery in the UAE and An Iraq.</p>
             </div>
         </div>
     </section>
@@ -45,7 +45,7 @@
     <div class="container">
         <div class="row">
         <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Our Projects</h1>
-        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the<br> industry</p>
+        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Probus has carried out multiple projects in the MENA region – we invite<br> you to take a look at some of our work below:</p>
             <div class="tab_buttons_projec col-md-4 col-md-offset-4">
                 <ul class="nav nav-pills nav-fill wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
                     <li class="active"><a data-toggle="tab" href="#home">Within UAE</a></li>
@@ -118,11 +118,11 @@
     
       <!-- Modal content-->
       <div class="modal-content modal_style_details">
-        <div class="modal-body">
+        <div class="modal-body"><!-- 
             <div class="col-md-6 no_padding">
                 <img src="img/about_first.png">
-            </div>
-            <div class="col-md-6 modal_text_details">
+            </div> -->
+            <div class="col-md-12 modal_text_details">
             <button type="button" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
                 <img src="img/client/client3.png" class="clients_logo_popup">
                 <h2>Project Name</h2>
