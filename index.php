@@ -68,6 +68,7 @@
 <!-- Our Activities + Gallery Section -->
     <?php include 'our_activities_section.php';?>
 
+
 <!-- Benefits Using Probus -->
     <?php include 'benefits_slick_section.php';?>
 
@@ -121,6 +122,8 @@
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
+    <script type="text/javascript" src="http://www.jqueryscript.net/demo/Mouse-Direction-aware-jQuery-Hover-Effect-Plugin-Directional-Hover/dist/jquery.directional-hover.min.js"></script>
+
     <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', function(){
 
@@ -143,11 +146,18 @@
             });
         }
 
+        $('.parent__link').directionalHover({
+            overlay: 'mask__overlay',
+            easing: "swing",
+            speed: 350
+        });
+
     });
 
     function newTyped(){ /* A new typed object */ }
 
     function foo(){ console.log("Callback"); }
+
 
     </script>
 </body>

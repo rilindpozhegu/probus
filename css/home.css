@@ -51,13 +51,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0.5% 10px;
+	background-attachment: fixed;
+	padding: 3.5% 10px;
 }
 
 .second_section_homepage h2 {
 	color: white;
 	font-family: 'Montserrat-Regular';
 	letter-spacing: -1px;
+	font-size: 25px;
 }
 
 .second_section_homepage h2 span {

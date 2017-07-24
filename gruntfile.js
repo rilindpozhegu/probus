@@ -44,6 +44,7 @@ module.exports = function(grunt) {
 					'js/gallery/lg-hash.min.js',
 					'js/gallery/lg-pager.min.js',
 					'js/gallery/jquery.mousewheel.min.js',
+					'js/jquery.directionl-hover.min.js',
 					// ---------------------------------//
 					'js/active_property.js',
 
