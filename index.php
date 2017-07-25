@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A WARM</h3>
-                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">WELCOME</h2><p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Welcome to Probus Engineering and Construction, a market leader providing services and bespoke solutions to the Oil and Gas Industries and Infrastructure sector. Located in Abu Dhabi and active within the Gulf Region, Probus prides itself on its client focus, delivery capability and inherent agility.</p>
+                <h2 class="typeit"></h2><p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Welcome to Probus Engineering and Construction, a market leader providing services and bespoke solutions to the Oil and Gas Industries and Infrastructure sector. Located in Abu Dhabi and active within the Gulf Region, Probus prides itself on its client focus, delivery capability and inherent agility.</p>
 
                 <!-- <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">and scrambled it to<br> make a type specimen <span id="typed"></span></p> -->
             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-7">
                     <img src="img/logo_two.png" class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
-                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Probus Engineering and Construction Pte Ltd (PEC), previously UnaE&amp;C Pte Ltd, is a Company incorporated in Singapore with its Operations Head Office in Abu Dhabi. UnaE&amp;C Pte Ltd was purchased in Feb 2017 by its new owner and, since then the Company has been operating under new leadership with the aim of expanding its Abu Dhabi footprint and re-entering Iraq.</p>
+                    <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">Probus Engineering and Construction Pte Ltd (PEC), is a Company incorporated in Singapore with its Operations Head Office in Abu Dhabi. PEC was purchased in Feb 2017 by its new owner and, since then the Company has been operating under new leadership with the aim of expanding its Abu Dhabi footprint and re-entering Iraq.</p>
                     <p class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s"> PEC is focused on the Oil and Gas OPEX market, working together with its Clients to deliver tailor-made EPC solutions for capacity/HSSE/other upgrades/modifications, both in the brownfield and greenfield environments as well as Maintenance (including SD/TR) based packages. PEC is a fully Iso certified Company with PQs across all Abu Dhabi OPCOs and with a track record of delivery in both Abu Dhabi and Iraq. PEC is diversifying into infrastructure and is following tenders in Abu Dhabi.</p>
                     <button class="default_button_all wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".5s">Services</button>
                 </div>
@@ -123,6 +123,8 @@
 
     <script type="text/javascript" src="build/scripts.js"></script>
     <script type="text/javascript" src="http://www.jqueryscript.net/demo/Mouse-Direction-aware-jQuery-Hover-Effect-Plugin-Directional-Hover/dist/jquery.directional-hover.min.js"></script>
+        <script type="text/javascript" src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.js"></script>
+        <script type="text/javascript" src="https://micku7zu.github.io/vanilla-tilt.js/src/vanilla-tilt.min.js"></script>
 
     <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', function(){
@@ -151,6 +153,15 @@
             easing: "swing",
             speed: 350
         });
+
+        $('.typeit').typeIt({
+             whatToType: "WELCOME",
+             typeSpeed: 100,
+             showCursor: false
+        });
+
+        const element = document.querySelector(".js-tilt");
+VanillaTilt.init(element);
 
     });
 

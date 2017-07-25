@@ -24,3 +24,20 @@
 	background-repeat: no-repeat;
 	padding: 6.5% 10px;
 }
+
+.background--holder {
+    min-height: 400px;
+    height: auto;
+    background-size: cover;
+	transition: 0.3s all;
+}
+
+
+.modal-dialog {
+	width: 60%;
+}
+
+#iFrame {
+	width: 100%;
+	height: 500px;
+}

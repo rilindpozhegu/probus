@@ -39,8 +39,8 @@
 
             <div class="col-md-5 col-md-offset-1">
             <h2 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".1s">Get In Touch</h2>
-            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">702,Gulf Business Center <br>
-            Abu Dhabi Plaza Tower, Hamdan Street<br>
+            <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">ADDAX Tower Office No. 2001<br>
+            City of lights Al Reem Island<br>
             Abu Dhabi, United Arab Emirates
             </p>
             <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".3s">

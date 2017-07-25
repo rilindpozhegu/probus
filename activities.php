@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
-                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">ACTIVITIES</h2>
+                <h2 class="typeit"></h2>
                 <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus is a leader in EPC (engineering, procurement, construction) and Maintenance Solutions in the energy sector, particularly Oil &amp; Gas, in the Gulf Region. We strive to always surpass our clients’ expectations and deliver the highest quality services in the region. (please mention infrastructural.</p>
             </div>
         </div>
@@ -114,6 +114,27 @@
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
+     <script type="text/javascript" src="http://www.jqueryscript.net/demo/Mouse-Direction-aware-jQuery-Hover-Effect-Plugin-Directional-Hover/dist/jquery.directional-hover.min.js"></script>
+     <script type="text/javascript" src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.js"></script>
+
+
+         <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function(){
+
+        $('.parent__link').directionalHover({
+            overlay: 'mask__overlay',
+            easing: "swing",
+            speed: 350
+        });
+
+        $('.typeit').typeIt({
+                 whatToType: "Activities",
+                 typeSpeed: 100,
+                 showCursor: false
+            });
+
+    });
+    </script>
 </body>
 
 </html>

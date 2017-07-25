@@ -17,12 +17,12 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-
-<!-- NavigationBar -->
+    <!-- NavigationBar -->
     <?php include 'navigation_bar.php';?>
 
     <?php include 'slider_top.php';?>
@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
-                <h2 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">PROJECTS</h2>
+                <h2 class="typeit"></h2>
                 <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Abu Dhabi National Oil Company (ADNOC) Pre-Qualified EPC/Maintenance<br> Contractor with a track record of delivery in the UAE and An Iraq.</p>
             </div>
         </div>
@@ -46,14 +46,35 @@
         <div class="row">
         <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Our Projects</h1>
         <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Probus has carried out multiple projects in the MENA region – we invite<br> you to take a look at some of our work below:</p>
-            <div class="tab_buttons_projec col-md-4 col-md-offset-4">
-                <ul class="nav nav-pills nav-fill wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">
-                    <li class="active"><a data-toggle="tab" href="#home">Within UAE</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Outside UAE</a></li>
-                 </ul>
-            </div>  
-            <div class="clearfix"></div>
 
+        <div class="col-md-12 md-12--flex">
+            <div class="col-md-6 projects__title">Below are some of our previous experience categories that Probus has completed successfully.</div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                Turn Key EPC Gas Compression Projects
+            </div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                Turn Key EPC Power Generation Projects
+            </div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                Units Demolition Projects
+            </div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".5s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                Static equipment installation and commissioning projects
+            </div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".6s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                Plants Maintenance, Rehabilitation, Rejuvenation and Expansion projects 
+            </div>
+            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".7s">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                 Maintenance services across utility systems
+            </div>
+        </div>
+<!-- 
             <div class="our_projects_details">
                 <div class="col-md-4 small_padding-lr">
                     <div class="image_details_a">
@@ -103,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -149,6 +170,16 @@
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
+    <script type="text/javascript" src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.typeit').typeIt({
+                 whatToType: "Projects",
+                 typeSpeed: 100,
+                 showCursor: false
+            });
+        });
+    </script>
 </body>
 
 </html>

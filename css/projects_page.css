@@ -51,6 +51,10 @@
 	margin: 10px 0px 0px;
 }
 
+.typeit {
+	color: #fff;
+}
+
 
 /* Images and Popups for more details */
 
@@ -146,4 +150,37 @@
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(42, 46, 58, 0.65);
+}
+
+.projects__title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #253A7F;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.md-12--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.project i {
+    color: #F7941D;
+    padding-right: 5px;
+}
+
+.ti-text-container {
+	color: #fff;
+}
+
+.ti-text-container:hover {
+	color: #fff;
 }

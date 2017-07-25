@@ -74,6 +74,13 @@
 	border: solid #D1D3D4 1px;
 }
 
+.location_card_about .image {
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .location_card_about img {
 	width: 100%;
 }
@@ -105,4 +112,31 @@
 	margin-bottom: 0px;
 	padding-top: 0px;
 	text-align: left;
+}
+
+.commitments__title {
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.commitments__title span {
+    width: 50%;
+    height: 1px;
+    background: #F7941D;
+    position: absolute;
+}
+
+.row--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location_card_about {
+	position: relative;
+	transition: all 0.4s cubic-bezier(0, 1.29, 1, 1) !important;
+}
+
+.location_card_about:hover {
+    transform: translateY(-5%);
 }
