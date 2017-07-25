@@ -34,7 +34,15 @@
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">A LITTLE ABOUT</h3>
                 <h2 class="typeit"></h2>
-                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus Engineering has made a name for itself in the Oil & Gas and Infrastructure sectors through goal-driven work and a standard for excellence. We believe that speed as well as quality of work are essential in helping our clients on a daily basis.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus Engineering and Construction Pte Ltd (PEC), previously UnaE&C Pte Ltd, is a Company incorporated in Singapore with its Operations Head Office in Abu Dhabi.
+
+                UnaE&C Pte Ltd was purchased in Feb 2017 by its new owner and, since then the Company has been operating under new leadership with the aim of expanding its Abu Dhabi footprint and re-entering Iraq.
+
+                PEC is focused on the Oil and Gas OPEX market, working together with its Clients to deliver tailor-made EPC solutions for capacity/HSSE/other upgrades/modifications, both in the brownfield and greenfield environments as well as Maintenance (including SD/TR) based packages.
+
+                PEC is a fully Iso certified Company with PQs across all Abu Dhabi OPCOs and with a track record of delivery in both Abu Dhabi and Iraq.
+
+                PEC is diversifying into infrastructure and is following tenders in Abu Dhabi.</p>
             </div>
         </div>
     </section>
