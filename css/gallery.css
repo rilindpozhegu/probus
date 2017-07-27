@@ -22,6 +22,7 @@
 
 .gallery_home_section img {
 	margin-top: 0 !important;
+    height: 190px! important;
 }
 
 #lightgallery {
