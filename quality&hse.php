@@ -161,7 +161,7 @@
 
             // 
 
-            $('<iframe id="iFrame" src="/img/pec.pdf#page=6&zoom=60">').appendTo('#modal-boddy');
+            $('<iframe id="iFrame" src="/img/prob.pdf#zoom=60">').appendTo('#modal-boddy');
         });
     </script>
 </body>

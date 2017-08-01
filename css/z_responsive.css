@@ -8,6 +8,22 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+  .card-big {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mask__overlay {
+    display: none;
+  }
+
+  #lightgallery {
+    padding-left: 0;
+  }
+}
+
 /*Only on Mobile*/
 @media only screen and (max-width: 1000px) {
     .mobile-d-n {

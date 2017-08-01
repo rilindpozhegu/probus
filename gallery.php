@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -75,6 +76,7 @@
     <script type="text/javascript" src="build/scripts.js"></script>
             <script type="text/javascript" src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.js"></script>
             <script type="text/javascript" src="http://www.jqueryscript.net/demo/Mouse-Direction-aware-jQuery-Hover-Effect-Plugin-Directional-Hover/dist/jquery.directional-hover.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.typeit').typeIt({
@@ -83,12 +85,36 @@
                  showCursor: false
             });
 
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 4,
+                slidesPerColumn: 2,
+                paginationClickable: true,
+                spaceBetween: 30,
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 3,
+                        slidesPerColumn: 2
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        slidesPerColumn: 2
+                    },
+                    640: {
+                        slidesPerView: 2,
+                        slidesPerColumn: 2
+                    },
+                    500: {
+                        slidesPerView: 1,
+                    }
+                }
+            });
             // 
 
             $('.parent__link').directionalHover({
                 overlay: 'mask__overlay',
                 easing: "swing",
-                speed: 350
+                speed: 350,
             });
         });
     </script>

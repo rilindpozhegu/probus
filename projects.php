@@ -45,35 +45,51 @@
     <div class="container">
         <div class="row">
         <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".2s">Our Projects</h1>
-        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Probus has carried out multiple projects in the MENA region – we invite<br> you to take a look at some of our work below:</p>
+        <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Below are some of our previous experience categories that Probus has completed successfully:</p>
 
-        <div class="col-md-12 md-12--flex">
-            <div class="col-md-6 projects__title">Below are some of our previous experience categories that Probus has completed successfully.</div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                Turn Key EPC Gas Compression Projects
+        <div class="container">
+            <div class="card-container">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-layout">
+                        <p class="title">Turn Key EPC Gas Compression Projects</p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-layout">
+                        <p class="title"> Turn Key EPC Power Generation Projects</p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 card-big">
+                    <div class="card-layout">
+                        <p class="title">Units Demolition Projects</p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
             </div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".3s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                Turn Key EPC Power Generation Projects
-            </div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".4s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                Units Demolition Projects
-            </div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".5s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                Static equipment installation and commissioning projects
-            </div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".6s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                Plants Maintenance, Rehabilitation, Rejuvenation and Expansion projects 
-            </div>
-            <div class="project wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".7s">
-                <i class="fa fa-minus" aria-hidden="true"></i>
-                 Maintenance services across utility systems
+            <div class="card-container">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-layout">
+                        <p class="title">Static equipment installation and commissioning projects</p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card-layout">
+                        <p class="title">Plants Maintenance, Rehabilitation, Rejuvenation and Expansion projects </p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 card-big">
+                    <div class="card-layout">
+                        <p class="title">Maintenance services across utility systems</p>
+                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
+                    </div>
+                </div>
             </div>
         </div>
+
 <!-- 
             <div class="our_projects_details">
                 <div class="col-md-4 small_padding-lr">

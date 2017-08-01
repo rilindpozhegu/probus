@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h2><span>Subscribe</span><br> To recieve our lastest news</h2>
+                <h2><span>Subscribe</span><br> To receive our lastest news</h2>
             </div>
             <div class="col-md-4">
                 <p>Simply enter your email address to receive updates about Probus.</p>

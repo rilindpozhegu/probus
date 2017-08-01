@@ -19,6 +19,7 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="build/styles.css?"<?= filemtime('build/styles.css') ?>”>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -42,7 +43,42 @@
 
 
 <!-- Our Activities + Gallery Section -->
-    <?php include 'our_activities_section.php';?>
+    <section class="our_activities_homepage">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1 class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">Our Activities</h1>
+                <p class="wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".4s">Established in the capital city of the United Arab Emirates, Abu Dhabi, Probus delivers tailor-made EPC and Maintenance Solutions to client requirements. Active in the Gulf markets, Probus undertakes all elements of engineering, procurement, construction, including commissioning, handover and maintenance services. To date, Probus has completed projects in the Abu Dhabi and Iraqi Oil &amp; Gas markets. Led by an ambitious and dedicated team characterised by its loyalty, integrity and determination to succeed, Probus blends the very best of old school and cutting-edge techniques to achieve optimum client solutions.</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.4s" data-wow-delay=".3s">
+                <div class="activities_small_cards">
+                <img src="img/engineering.svg">
+                    <h4>Engineering</h4>
+                    <p>Engineering services including basic design and detailed engineering is delivered through our Abu Dhabi Branch, plus our Engineering office in India.</p> <br>   &nbsp;
+                    <!-- <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> -->
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp"  data-wow-duration="0.4s" data-wow-delay=".2s">
+                <div class="activities_small_cards">
+                <img src="img/procurement.svg">
+                    <h4>Procurement</h4>
+                    <p>Probus function with ISO9001 approved processes and procedures to maintain the highest standard in quality and efficiency</p> <br>   &nbsp;
+                    <!-- <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> -->
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInUp"  data-wow-duration="0.4s" data-wow-delay=".3s">
+                <div class="activities_small_cards">
+                <img src="img/construction.svg">
+                    <h4>Construction</h4>
+                    <p>Probus carries out construction projects up until commissioning and handover.Probus ensures delivery on cost and schedule while maintaining the highest quality.</p>
+                    <!-- <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="benefits_using_probus_s">
     <div class="container">
@@ -56,32 +92,14 @@
                         <a href="#"><button class="default_button_all">Contact Us</button></a>
                     </div>
                 </div>
-                <div class="staff_panel_sm">
-                    <div class="staff_small_p_text ">
-                        <h4>Brownfield Services & Plant Maintenance</h4>
-                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
-                    </div>
-                </div>
-                <div class="staff_panel_sm">
-                    <div class="staff_small_p_text ">
-                        <h4>Brownfield Services & Plant Maintenance</h4>
-                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
-                    </div>
-                </div>
-                <div class="staff_panel_sm">
-                    <div class="staff_small_p_text ">
-                        <h4>Brownfield Services & Plant Maintenance</h4>
-                        <p>Probus comes as an invaluable partner even to existing plants and oil production facilities. Our operational maintenance professionals deliver the most competent technical services in order to maintain existing structures. Probus’s brownfield servicing and upgrading is ideal to support production growth or to get the most out of existing wells on a plateau or a downturn. Our in- country presence not only meets regulations but also gives our on-the- ground service teams an unmatched responsiveness in terms of reliability as well as speed.</p>
-                        <a href="#"><button class="default_button_all">Contact Us</button></a>
-                    </div>
-                </div>
-
             </div>    
         </div>
     </div>
 </section>
+
+<div class="seperator__pr"></div>
+<!-- Gallery Section -->
+<?php include 'gallery_all_pages.php';?>
 
 <!-- last section on the activities page -->
 <section class="clients_activities_page">
@@ -116,6 +134,7 @@
     <script type="text/javascript" src="build/scripts.js"></script>
      <script type="text/javascript" src="http://www.jqueryscript.net/demo/Mouse-Direction-aware-jQuery-Hover-Effect-Plugin-Directional-Hover/dist/jquery.directional-hover.min.js"></script>
      <script type="text/javascript" src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Customizable-Terminal-Text-Effect-TypeIt/dist/typeit.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 
 
          <script type="text/javascript">
@@ -131,6 +150,31 @@
                  whatToType: "Activities",
                  typeSpeed: 100,
                  showCursor: false
+            });
+
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 4,
+                slidesPerColumn: 2,
+                paginationClickable: true,
+                spaceBetween: 30,
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 3,
+                        slidesPerColumn: 2
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        slidesPerColumn: 2
+                    },
+                    640: {
+                        slidesPerView: 2,
+                        slidesPerColumn: 2
+                    },
+                    500: {
+                        slidesPerView: 1,
+                    }
+                }
             });
 
     });
