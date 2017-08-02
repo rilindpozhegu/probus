@@ -49,99 +49,40 @@
 
         <div class="container">
             <div class="card-container">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="card-layout">
                         <p class="title">Turn Key EPC Gas Compression Projects</p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="card-layout">
                         <p class="title"> Turn Key EPC Power Generation Projects</p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 card-big">
+                <div class="col-md-4 col-sm-12 card-big">
                     <div class="card-layout">
                         <p class="title">Units Demolition Projects</p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
             </div>
             <div class="card-container">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="card-layout">
                         <p class="title">Static equipment installation and commissioning projects</p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="card-layout">
                         <p class="title">Plants Maintenance, Rehabilitation, Rejuvenation and Expansion projects </p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 card-big">
+                <div class="col-md-4 col-sm-12 card-big">
                     <div class="card-layout">
                         <p class="title">Maintenance services across utility systems</p>
-                        <p class="text">Lorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnetLorem ipsum dolor sit amnet</p>
                     </div>
                 </div>
             </div>
         </div>
-
-<!-- 
-            <div class="our_projects_details">
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 small_padding-lr">
-                    <div class="image_details_a">
-                        <img src="img/gallery/img1.png" alt="Project" class="image img-responsive" >
-                        <div class="overlay">
-                            <button class="button_details_projects"  data-toggle="modal" data-target="#myModal">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
     </div>
 </section>

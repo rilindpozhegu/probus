@@ -14,32 +14,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">        
     <div class="item active">
-      <img src="img/slider/slide1.png" alt="..." class="mobile-d-n">
-      <img src="img/slider/s1.png" alt="..." class="desktop-d-n">
+      <img src="img/slider/Banner1.png" alt="...">  
       <div class="carousel-caption">
       </div>
     </div>     
     <div class="item">
-      <img src="img/slider/slide2.png" alt="..." class="mobile-d-n">
-      <img src="img/slider/s2.png" alt="..." class="desktop-d-n">
+      <img src="img/slider/Banner2.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>   
     <div class="item">
-      <img src="img/slider/slide3.png" alt="..." class="mobile-d-n">
-      <img src="img/slider/s3.png" alt="..." class="desktop-d-n">
+      <img src="img/slider/slide3.png" alt="...">
       <div class="carousel-caption">
       </div>
     </div>   
     <div class="item">
-      <img src="img/slider/slide4.png" alt="..." class="mobile-d-n">
-      <img src="img/slider/s4.png" alt="..." class="desktop-d-n">
+      <img src="img/slider/slide4.png" alt="...">
       <div class="carousel-caption">
       </div>
     </div>   
     <div class="item">
-      <img src="img/slider/slide5.png" alt="..." class="mobile-d-n">
-      <img src="img/slider/s5.png" alt="..." class="desktop-d-n">
+      <img src="img/slider/Banner5.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>      <!-- 
