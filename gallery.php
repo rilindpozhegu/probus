@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
-                <h2 class="typeit"></h2>
+                <h2 class="#">Gallery</h2>
                 <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Probus has carried out multiple projects in the MENA region – we invite you to take a look at some of our work below:</p>
             </div>
         </div>
@@ -64,9 +64,6 @@
     </div>
 </section>
 
-<section class="home_input_style white_contact_form_style ccc_contact_from">
-    <?php include 'contact_section_input.php';?>
-</section>    
 
 <!-- Footer all Pages -->    
     <?php include 'footer_all.php';?>

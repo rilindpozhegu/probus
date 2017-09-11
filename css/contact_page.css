@@ -1,7 +1,9 @@
 .map_section_contact {
-	margin-top: 6%;
+	margin-top: 7%;
 }
-
+#map {
+  margin-top: 7%;
+}
 .label_string_2 {
 	color: #939598 !important;
 }
@@ -13,16 +15,25 @@
 .input_style2 {
   border-bottom:2px solid #939598 !important;
 }
-
+.contact_forms_section2 h1 {
+  font-family: 'Montserrat-Bold' !important;
+  color: #253A7F !important;
+  text-align: left !important;
+  font-size: 35px !important;
+}
 .contact_forms_section2 h2 { 
   font-family: 'Montserrat-Regular' !important;
   color: #253A7F !important;
   text-align: left !important;
-  font-size: 45px;
+  font-size: 25px !important;
 }
 
 .contact_forms_section2 p {
   text-align: left !important;
   color: #666666 !important;
   font-size: 18px !important;
+}
+
+.contact_forms_section2 .textarea {
+  color: black !important;
 }

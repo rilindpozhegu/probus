@@ -1,4 +1,3 @@
-
 <section class="contact_forms_section" id="contact_section">
     <div class="container">
         <div class="row">
@@ -8,6 +7,7 @@
 
             <div class="col-md-8 col-md-offset-2">
                 
+            <form  action="https://formspree.io/info@probusec.com" method="POST">
                 <div class="col-md-6 input_size wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".2s">                
                     <div class="group_inputs">      
                       <input type="text" required class="input_style">
@@ -34,9 +34,9 @@
                 </div>
 
                 <div class="col-md-12" style="text-align: center;">
-                    <button class="default_button_all wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".5s">Send</button>                
+                    <button class="default_button_all wow fadeInUp submit" data-wow-duration="0.5s" data-wow-delay=".5s"  type="submit" value="Send">Send</button>                
                 </div>
-
+              </form>
             </div>
 
             <!-- <div class="col-md-2"></div> -->

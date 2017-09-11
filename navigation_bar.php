@@ -36,7 +36,7 @@
                             <a class="page-scroll" href="gallery.php">GALLERY</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="contact.php">CONTACT</a>
+                            <a class="page-scroll" href="contact.php">CONTACT US</a>
                         </li>
                     </ul>
                 </nav>

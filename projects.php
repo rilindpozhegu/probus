@@ -31,8 +31,7 @@
     <section class="projects_cover_section main_text_hero">
         <div class="container">
             <div class="row">
-                <h3 class="wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay=".2s">PROBUS</h3>
-                <h2 class="typeit"></h2>
+                <h2 class="#">Projects</h2>
                 <p class="wow fadeInRight" data-wow-duration="0.4s" data-wow-delay=".4s">Abu Dhabi National Oil Company (ADNOC) Pre-Qualified EPC/Maintenance<br> Contractor with a track record of delivery in the UAE and An Iraq.</p>
             </div>
         </div>
@@ -116,9 +115,6 @@
   </div>
 
 
-<section class="home_input_style">
-    <?php include 'contact_section_input.php';?>
-</section>    
 
 
 <!-- Footer all Pages -->    

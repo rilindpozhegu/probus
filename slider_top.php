@@ -14,27 +14,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">        
     <div class="item active">
-      <img src="img/slider/Banner1.png" alt="...">  
+      <img src="img/slider/Banner1.png" alt="...">
       <div class="carousel-caption">
       </div>
     </div>     
     <div class="item">
-      <img src="img/slider/Banner2.jpg" alt="...">
+      <img src="img/slider/1.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>   
+    <div class="item">
+      <img src="img/slider/banner3.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>   
+    <div class="item">
+      <img src="img/slider/Banner5 (1).jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>   
     <div class="item">
       <img src="img/slider/slide3.png" alt="...">
-      <div class="carousel-caption">
-      </div>
-    </div>   
-    <div class="item">
-      <img src="img/slider/slide4.png" alt="...">
-      <div class="carousel-caption">
-      </div>
-    </div>   
-    <div class="item">
-      <img src="img/slider/Banner5.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>      <!-- 

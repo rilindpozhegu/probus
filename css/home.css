@@ -234,12 +234,22 @@
 	color: #EF7F0F;
 	transition: ease all 0.3s;
 }
+
+.panel-testimonial1 {
+	transition: ease all 0.3s;
+}
+
+.panel-testimonial1:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 30px;
+}
 .testimonials_section h4 {
   margin-top: 0px;
   transition: ease all 0.3s;
   margin-bottom: 10px;
   font-family: 'Montserrat-Regular';
-  font-size: 22px; 
+  font-size: 27px; 
 }
 
 .testimonials_section p {
@@ -269,8 +279,9 @@
 .panel-testimonial1 .testimonial_text {
   border-radius: 20px;
   background-color: transparent;
-  padding: 20px;
   transition: ease-in-out all 0.3s;
+  padding-top: 7%;
+  text-align: left;
 }
 /*.panel-testimonial1:hover .testimonial_text {
   background-color: white;

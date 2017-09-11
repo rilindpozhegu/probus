@@ -29,8 +29,8 @@ module.exports = function(grunt) {
 					// -------------------// 
 
 					// Animation.css Scripts after scroll
-					'js/wow.min.js',
-					'js/animate.js',
+					// 'js/wow.min.js',
+					// 'js/animate.js',
 					// --------------------------------// 
 
 					// Gallery Scripts New ONE
